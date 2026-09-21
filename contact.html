@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | India Unboxed</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="site-header"></div>
+  <main>
+    <section class="page-hero"><div class="container"><span class="eyebrow">LET'S CONNECT</span><h1>Bring your regional flavour.</h1><p>For product partnerships, corporate gifting or general enquiries.</p></div></section>
+    <section class="section"><div class="container contact-grid">
+      <form class="contact-form" onsubmit="handleContact(event)">
+        <label>Name<input required type="text" placeholder="Your name"></label>
+        <label>Email<input required type="email" placeholder="you@example.com"></label>
+        <label>Enquiry<select><option>General enquiry</option><option>Supplier partnership</option><option>Corporate gifting</option><option>Customer support</option></select></label>
+        <label>Message<textarea required rows="6" placeholder="Tell us how we can help..."></textarea></label>
+        <button class="btn btn-primary" type="submit">Send enquiry →</button>
+      </form>
+      <div class="contact-card"><div>📦</div><h2>For producers & makers</h2><p>We are building a supplier network for authentic regional products.</p><div>🎁</div><h2>For corporate gifting</h2><p>Reach out for curated regional/cultural hampers and bulk orders.</p></div>
+    </div></section>
+  </main>
+  <div id="site-footer"></div>
+  <script src="js/app.js"></script>
+</body>
+</html>
