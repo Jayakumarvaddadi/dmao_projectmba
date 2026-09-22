@@ -1,13 +1,4 @@
-const PRODUCTS = [
-  {id:1,name:"Andhra Kara Boondi",category:"Savoury & Spicy",region:"South India",price:249,emoji:"🌶️",cls:"one",desc:"A crunchy, spicy regional favourite."},
-  {id:2,name:"Mysore Pak Bites",category:"Sweets",region:"South India",price:299,emoji:"🍬",cls:"two",desc:"Rich, traditional sweet treats."},
-  {id:3,name:"Banana Chips",category:"Chips & Crisps",region:"South India",price:199,emoji:"🍌",cls:"three",desc:"Crispy chips inspired by Kerala."},
-  {id:4,name:"Gujarati Khakhra",category:"Healthy Snacks",region:"West India",price:229,emoji:"🥜",cls:"four",desc:"Light, crisp and perfect with tea."},
-  {id:5,name:"Rajasthani Mixture",category:"Savoury & Spicy",region:"North India",price:279,emoji:"🍘",cls:"one",desc:"A bold crunchy namkeen-style mix."},
-  {id:6,name:"Bengali Sandesh Bites",category:"Sweets",region:"East India",price:349,emoji:"🍬",cls:"two",desc:"A delicate sweet-inspired selection."},
-  {id:7,name:"Masala Peanut Crunch",category:"Healthy Snacks",region:"West India",price:219,emoji:"🥜",cls:"four",desc:"Roasted peanuts with regional spice."},
-  {id:8,name:"Aam Panna Cooler",category:"Beverages",region:"North India",price:179,emoji:"🥤",cls:"three",desc:"Tangy mango-inspired refreshment."}
-];
+// PRODUCTS comes from js/products.js
 
 function header(){
   return `<header class="site-header"><div class="container nav">
